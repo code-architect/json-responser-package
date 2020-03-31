@@ -1,0 +1,23 @@
+{
+    "name": "codearchitect/json_response",
+    "description": "Take the value user assign/enter to the properties of the class. And return the json formatted response.",
+    "keywords": ["json", "response", "API", "php", "API Response Class"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "code-architect",
+            "email": "codearchitectdeveloper@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeArchitect\\ResponseClass\\": "src/"
+        }
+    }
+}
